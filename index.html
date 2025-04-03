@@ -1,5 +1,60 @@
 <html>
 
-hello
+<style>
+    body{
+        font-family:'Courier New', Courier, monospace;
+    }
+    #main{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #intro{
+        padding:5px;
+    }
+    .header{
+        padding:5px;
+        font-size: large;
+        font-weight: bold;
+        color:rgb(94, 94, 94);
+    }
+    .blurb{
+        padding:5px;
+    }
+    .item{
+        background-color:lightgreen;
+        padding:5px;
+        margin:5px;
+    }
 
+</style>
+
+<div id="main">
+<div id="intro">
+    Hello! I'm Ken Reed. These are my personal projects.
+</div>
+<div class="item">
+    <div class="header">tumbleweed</div>
+    <div class="blurb">My web implementation of the board game tumbleweed built with rust+webgl</div>
+    <span class="blurb"><a href="https://tiby312.github.io/tumbletopia-web/">view in your browser</a></span>
+</div>
+<div class="item">
+    <div class="header">poloto</div>
+    <div class="blurb">A plotting library I wrote in rust</div>
+    <span class="blurb"><a href="https://github.com/tiby312/poloto-project/">view github project</a></span>
+</div>
+<div class="item">
+    <div class="header">tagu</div>
+    <div class="blurb">library to write html in rust</div>
+    <span class="blurb"><a href="https://github.com/tiby312/tagu/">view github project</a></span>
+</div>
+<div class="item">
+    <div class="header">broccoli</div>
+    <div class="blurb">My broad-phase collision detection library</div>
+    <span class="blurb"><a href="https://github.com/tiby312/broccoli-project/">view github project</a></span>
+</div>
+
+
+
+
+</div>
 </html>
