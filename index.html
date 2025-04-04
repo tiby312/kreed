@@ -1,5 +1,7 @@
 <html>
-
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <style>
     body{
         font-family:'Courier New', Courier, monospace;
@@ -7,6 +9,7 @@
     #main{
         display:flex;
         flex-wrap: wrap;
+        justify-content:left;
     }
     #intro{
         padding:10px;
@@ -21,6 +24,7 @@
         padding:5px;
     }
     .item{
+        width: 500px;
         border-radius:10px;
         background-color:lightgreen;
         padding:5px;
@@ -29,36 +33,45 @@
 
 </style>
 
-<div id="main">
 <div id="intro">
     Hello! I'm Ken Reed. These are my personal projects.
 </div>
+<div id="main">
+
 <div class="item">
     <div class="header">tumbleweed</div>
-    <div class="blurb">My web implementation of the board game tumbleweed built with rust+webgl</div>
-    <span class="blurb"><a href="https://tiby312.github.io/tumbletopia-web/">view in your browser</a></span>
+    <div class="blurb">Tumbleweed is an abstract board game invented by Mike Zapawa in 2020. Written in rust+webgl. Has decently strong AI.</div>
+    <span class="blurb"><a href="https://tiby312.github.io/tumbletopia-web/">try in your browser!</a></span>
+    <br>
+    <span class="blurb"><a href="https://github.com/tiby312/tumbletopia/">github project</a></span>
 </div>
 <div class="item">
     <div class="header">poloto</div>
     <div class="blurb">A plotting library I wrote in rust</div>
-    <span class="blurb"><a href="https://github.com/tiby312/poloto-project/">view github project</a></span>
+    <span class="blurb"><a href="https://crates.io/crates/poloto">crates.io</a></span>
+    <br>
+    <span class="blurb"><a href="https://github.com/tiby312/poloto-project/">github project</a></span>
 </div>
 <div class="item">
     <div class="header">tagu</div>
     <div class="blurb">library to write html in rust</div>
-    <span class="blurb"><a href="https://github.com/tiby312/tagu/">view github project</a></span>
+    <span class="blurb"><a href="https://crates.io/crates/tagu">crates.io</a></span>
+    <br>
+    <span class="blurb"><a href="https://github.com/tiby312/tagu/">github project</a></span>
 </div>
 <div class="item">
     <div class="header">broccoli</div>
     <div class="blurb">My broad-phase collision detection library</div>
-    <span class="blurb"><a href="https://github.com/tiby312/broccoli-project/">view github project</a></span>
+    <span class="blurb"><a href="https://crates.io/crates/broccoli">crates.io</a></span>
+    <br>
+    <span class="blurb"><a href="https://github.com/tiby312/broccoli-project/">github project</a></span>
 </div>
 
 <div id="intro">
     Contact
     <a href="https://x.com/tiby312">x(twitter)</a>
     <a href="https://www.reddit.com/user/Tiby312/">reddit</a>
-    
+    <a href="https://www.linkedin.com/in/tiby312/">linkedin</a>
 </div>
 </div>
 </html>
